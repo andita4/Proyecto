@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.barraMenu{
+    background-color: 10px solid aqua;
+
+}
+
+.carrusel{
+    height: 750px;
+    overflow: hidden;
+}
+
+.itemCarrusel{
+    height: 100%;
+    position: relative;
+}
+
+.imagen{
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.flechasCarrucel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#img1{
+    background-color: aqua;
+}
+
+#img2{
+    background-color: rgb(68, 0, 255);
+}
+
+#img3{
+    background-color: rgb(255, 0, 179);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.Cuerpo{
+    background-color: black;
+    color: aliceblue;
+}
+
+.itemTexto{
+    display:flex;
+    justify-content: space-between;
+}
+
+.texto{
+    text-align: center;
+    width: 25%;
+}
+
+h3{
+    text-align: center;
+    padding: 30px;
+}
